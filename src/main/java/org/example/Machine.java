@@ -1,8 +1,10 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Machine {
+
 
 
     static String machineName() {                       //Метод для чтения данных о названии машин от пользователя
@@ -22,6 +24,14 @@ public class Machine {
             }
         }
 
+    }
+    static ArrayList numberOfCars(int numberCars) {
+
+        ArrayList<Integer> allCars = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 1; i <= numberCars; i++) {
+            allCars.add(i);
+        }return(allCars);
     }
 
 }
