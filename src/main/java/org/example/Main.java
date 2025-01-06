@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Введите Название машины №1:");
         String firstMachine = Machine.machineName();
         System.out.println("Введите скорость машины №1:");
@@ -17,13 +18,6 @@ public class Main {
 
         System.out.println(Rally.winner(firstSpeed, secondSpeed, thirdSpeed, firstMachine, secondMachine, thirdMachine));
 
-
-
-
-
     }
-
-
-
-    }
+}
 
